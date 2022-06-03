@@ -1,4 +1,4 @@
-#include "git.h"
+#include "cmake-git-version-tracking/git.h"
 
 bool GitMetadata::Populated() {
     return @GIT_RETRIEVED_STATE@;
